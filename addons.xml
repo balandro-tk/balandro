@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.balandro" name="Balandro" version="2.2.3" provider-name="Balandro Team">
+<addon id="plugin.video.balandro" name="Balandro" version="2.2.4" provider-name="Balandro Team">
   <requires>
+     <import addon="script.module.requests"/>
   </requires>
 
   <extension point="xbmc.python.pluginsource" library="default.py">
